@@ -9,6 +9,7 @@ public class NewerGrab : XRGrabInteractable
     private Quaternion interactorRotation = Quaternion.identity;
     
     protected override void OnSelectEntering (XRBaseInteractor interactor){
+        Debug.Log("Entered");
         base.OnSelectEntering(interactor);
         StoreInteractor(interactor);
         MatchAttachmentPoints(interactor);
@@ -24,6 +25,7 @@ public class NewerGrab : XRGrabInteractable
         interactor.attachTransform.rotation = hasAttach ? attachTransform.rotation : transform.rotation;
     }
     protected override void OnSelectExiting(XRBaseInteractor interactor){
+        Debug.Log("Exit");
         base.OnSelectExiting(interactor);
         ResetAttacmentPoint(interactor);
         ClearInteractor(interactor);
