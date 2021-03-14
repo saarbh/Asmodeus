@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: 8f13302abf4094b46ae2c2500ae05be0
+guid: cd170baee9757d84a91a63fc0e41c222
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: 7219132853655338971
-    second: Armature_Hand_L|00
-  - first:
-      74: 1272462385812395980
-    second: Hand_L|00
+      74: 1827226128182048838
+    second: Take 001
   externalObjects: {}
   materials:
     materialImportMode: 1

@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: b73ea0a59df8a3647ac2d4ebe7ef7337
+guid: f27e988e7d7ec2f48b13e07b6bf49ff6
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: -8720119636938910586
-    second: Armature_Hand_R|00
+      74: 1827226128182048838
+    second: Take 001
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -93,7 +93,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
