@@ -133,6 +133,7 @@ PlayerSettings:
   - {fileID: 11400000, guid: 6c166f528f5553e49892b1d82113ac3f, type: 2}
   - {fileID: -8937726761685793155, guid: 7a6b271fd1eb72a448778984abd081a0, type: 2}
   - {fileID: 11400000, guid: bcb63f2d467ed1d4eafe633c525aec5b, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -179,7 +180,7 @@ PlayerSettings:
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
@@ -702,7 +703,6 @@ PlayerSettings:
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
-  assemblyVersionValidation: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1

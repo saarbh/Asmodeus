@@ -9,27 +9,22 @@ public class AudioEffect : XRGrabInteractable
     private Vector3 interactorPosition = Vector3.zero;
 
     private Quaternion interactorRotation = Quaternion.identity;
-   
+    GameObject dora;
     GameObject[] puzzleObjects;
     List<XRBaseInteractable> interactables = new List<XRBaseInteractable>();
 
     void Start() {
-        
+        Debug.Log("Entered");
     }
     protected override void OnSelectEntering (XRBaseInteractor interactor){
-        
-      
-      
+
+     
         FindObjectOfType<AudioManager>().Play(DialogVoice);
-        // base.OnSelectEntering(interactor);
-        // StoreInteractor(interactor);
-        // MatchAttachmentPoints(interactor);
+
     }
     
     protected override void OnSelectExiting(XRBaseInteractor interactor){
         Debug.Log("Exit");
-        // base.OnSelectExiting(interactor);
-        // ResetAttacmentPoint(interactor);
-        // ClearInteractor(interactor);
+
     }
 }
