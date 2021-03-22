@@ -13,7 +13,7 @@ public class AudioEffect : XRGrabInteractable
     List<XRBaseInteractable> interactables = new List<XRBaseInteractable>();
 
     void Start() {
-        Debug.Log("Entered");
+        Debug.Log("Audio Played");
     }
     protected override void OnSelectEntering (XRBaseInteractor interactor){
 
@@ -23,7 +23,7 @@ public class AudioEffect : XRGrabInteractable
     }
     
     protected override void OnSelectExiting(XRBaseInteractor interactor){
-        Debug.Log("Exit");
+        Debug.Log("Audio play ended");
 
     }
 }
