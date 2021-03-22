@@ -7,7 +7,6 @@ public class AudioEffect : XRGrabInteractable
 {
     public string DialogVoice;
     private Vector3 interactorPosition = Vector3.zero;
-
     private Quaternion interactorRotation = Quaternion.identity;
     GameObject dora;
     GameObject[] puzzleObjects;
