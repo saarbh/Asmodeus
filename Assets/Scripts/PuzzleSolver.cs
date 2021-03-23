@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PuzzleSolver
+public class PuzzleSolver : MonoBehaviour
 {
     public static bool _TouristIn;
     public static bool _DealerIn;

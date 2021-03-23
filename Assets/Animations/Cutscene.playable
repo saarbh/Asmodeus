@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 51.68333333333333
+    m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 2704404429591648783}
     m_Duration: 1378.05
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 51.68333333333333
+    m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -2784979938215710566}
     m_Duration: 1378.05
@@ -1716,10 +1716,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
+  - {fileID: -2817036507471189662}
   - {fileID: 3743709302272060407}
   - {fileID: -6337206408184970770}
   - {fileID: -2065351437748616954}
-  - {fileID: -2817036507471189662}
   - {fileID: 6299788987610640013}
   m_FixedDuration: 0
   m_EditorSettings:
